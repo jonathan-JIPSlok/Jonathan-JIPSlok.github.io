@@ -6,7 +6,7 @@
 
 body {
     padding: 10px;
-    background-image: linear-gradient(to left, rgba(2, 192, 237, 93), rgba(2, 7, 247, 97));
+    background-image: linear-gradient(to right, rgba(2, 192, 237, 93), rgba(2, 7, 247, 97));
 }
 
 div#principal {
