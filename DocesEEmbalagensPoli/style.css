@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div#principal {
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+}
+body {
+    background-image: linear-gradient(to top, red, darkred);
+}
