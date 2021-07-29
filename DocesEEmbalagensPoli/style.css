@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 div#principal {
     width: 500px;
     padding: 10px;
@@ -8,5 +7,5 @@ div#principal {
     box-shadow: 2px 2px 4px black;
 }
 body {
-    background-image: linear-gradient(to top, red, darkred);
+    background-image: linear-gradient(to left, red, darkred);
 }
