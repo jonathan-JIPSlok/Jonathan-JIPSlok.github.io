@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 div#principal {
+    margin: auto;
     width: 500px;
     padding: 10px;
     background-color: white;
@@ -8,6 +9,7 @@ div#principal {
     box-shadow: 2px 2px 4px black;
 }
 div#Produtos {
+    margin: auto;
     width: 500px;
     padding: 10px;
     background-color: white;
