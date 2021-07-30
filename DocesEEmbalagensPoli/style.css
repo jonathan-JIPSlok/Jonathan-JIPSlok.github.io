@@ -10,6 +10,7 @@ div#principal {
 }
 div#Produtos {
     margin: auto;
+    margin-top: 30px;
     width: 500px;
     padding: 10px;
     background-color: white;
