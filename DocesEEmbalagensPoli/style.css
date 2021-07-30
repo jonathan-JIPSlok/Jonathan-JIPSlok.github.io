@@ -1,5 +1,13 @@
 @charset "UTF-8";
+
 div#principal {
+    width: 500px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px black;
+}
+div#Produtos {
     width: 500px;
     padding: 10px;
     background-color: white;
@@ -8,4 +16,12 @@ div#principal {
 }
 body {
     background-image: linear-gradient(to left, red, darkred);
+    padding: 20px;
+}
+h1#tituloProdutos {
+    font-weight: bold;
+    color: darkred;
+}
+.titulos{
+    text-align: center;
 }
