@@ -2,7 +2,7 @@
 
 div#principal {
     margin: auto;
-    width: 500px;
+    width: 700px;
     padding: 10px;
     background-color: white;
     border-radius: 20px;
@@ -11,11 +11,12 @@ div#principal {
 div#Produtos {
     margin: auto;
     margin-top: 30px;
-    width: 500px;
+    width: 700px;
     padding: 10px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 2px 2px 4px black;
+    text-align: center;
 }
 body {
     background-image: linear-gradient(to left, red, darkred);
@@ -25,6 +26,24 @@ h1#tituloProdutos {
     font-weight: bold;
     color: darkred;
 }
-.titulos{
+.titulos {
     text-align: center;
+}
+.Produto {
+    background-color: lightgray;
+    display: inline-block;
+    max-height: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1px;
+    margin: 3px;
+}
+.Preco {
+    font-style: bold;
+    color: darkblue;
+    font-size: 1.5em;
 }
