@@ -8,20 +8,15 @@ body {
     background-image: linear-gradient(to right, rgba(2, 192, 237, 93), rgba(2, 7, 247, 97));
 }
 
-div#principal {
-    width:600px;
-    padding:10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 3px black;
+.Dados {
     margin: auto;
-    background-color: rgba(2, 192, 237, 23);
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 600px;
 }
-h1#Titulo_Principal {
+.Titulos {
     text-align: center;
-    font-style: bold;
-    font-size: 2em;
-}
-a {
-    font-weight: bold;
-    color: black;
 }
