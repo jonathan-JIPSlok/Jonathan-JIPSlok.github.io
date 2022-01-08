@@ -4,8 +4,8 @@
 }
 
 body {
-    height: 100vh;
     background-image: url("imagens/iceland-fundo.jpg");
+    background-size: 100% 100%;
 }
 div#Name_Cargo {
   box-shadow: 3px 3px 7px rgba(72, 121, 163, 0.10);
