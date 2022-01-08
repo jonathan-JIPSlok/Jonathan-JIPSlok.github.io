@@ -2,12 +2,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-@media only screen and (max-device-width: 900px) {
-  /*.menu { width: 600px;}*/
-}
-@media only screen and (max-device-widht: 700px) {
-  /*.menu {width: 400px;} */
-}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -32,7 +27,7 @@ div#Minha_Descricao {
   background-color: rgba(72, 121, 163, 0.64);
   padding: 20px;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 145px;
   width: 80%;
   color: rgba(141, 240, 177, 0.94);
   
