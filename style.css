@@ -26,9 +26,10 @@ div#Name_Cargo {
 div#Minha_Descricao {
   background-color: rgba(72, 121, 163, 0.64);
   padding: 20px;
+  margin: auto;
   margin-top: 200px;
   color: rgba(141, 240, 177, 0.94);
-  width: 500px;
+  
 }
 #Menu {
   padding-top: 0px;
