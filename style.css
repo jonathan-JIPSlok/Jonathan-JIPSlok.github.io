@@ -4,6 +4,7 @@
 }
 
 body {
+    height: 100vh;
     background-image: url("imagens/iceland-fundo.jpg");
 }
 div#Name_Cargo {
