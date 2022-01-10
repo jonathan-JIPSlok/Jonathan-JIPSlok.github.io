@@ -9,7 +9,7 @@ body {
     background-image: url("imagens/iceland_fundo.jpg");
     background-size: cover;
 }
-div#Name_Cargo {
+div#topo {
   box-shadow: 3px 3px 7px rgba(72, 121, 163, 0.10);
   text-align: center;
   font-weight: bold;
@@ -23,7 +23,7 @@ div#Name_Cargo {
   margin-top: 40px;
   
 }
-div#Minha_Descricao {
+div#baixo {
   background-color: rgba(72, 121, 163, 0.64);
   padding: 20px;
   margin: auto;
@@ -31,6 +31,11 @@ div#Minha_Descricao {
   width: 80%;
   color: rgba(141, 240, 177, 0.94);
   
+}
+a {
+  text-decoration: none;
+  color: rgba(141, 240, 177, 0.94);
+  font-weight: bold;
 }
 #Menu {
   padding-top: 0px;
@@ -52,7 +57,7 @@ div#Minha_Descricao {
   display: inline;
 }
 #Menu ul li a {
-  padding: 7px 15px;
+  padding: 7px 10px;
   display: inline-block;
   
   color: rgba(141, 240, 177, 0.94);
