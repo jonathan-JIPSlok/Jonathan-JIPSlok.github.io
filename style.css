@@ -14,7 +14,7 @@ div#topo {
   text-align: center;
   font-weight: bold;
   color: rgba(141, 240, 177, 0.94);
-  padding: 20px;
+  padding: 15px;
   background-size: 500px;
   background-color: rgba(72, 121, 163, 0.64);
   border-radius: 15px;
@@ -63,4 +63,10 @@ a {
   color: rgba(141, 240, 177, 0.94);
   font-weight: bold;
   text-decoration: none;
+}
+img {
+  width: 20%;
+  border: 4px solid rgba(141, 240, 177, 0.94);
+  border-radius: 500px;
+  
 }
