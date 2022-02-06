@@ -1,0 +1,68 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Menu {
+    padding-top: 0px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+  #Menu ul{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    background-color: rgba(141, 240, 177, 1);
+  }
+  #Menu ul li{
+    display: inline;
+  }
+  #Menu ul li a {
+    padding: 7px 10px;
+    display: inline-block;
+    
+    color: rgba(1, 77, 29, 0.94);
+    font-weight: bold;
+    text-decoration: none;
+  }
+body{
+    background-color:rgb(10, 238, 97);
+    color: black;
+}
+div#P_Materiais_QRCode {
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px black;
+    background-color: rgb(247, 241, 231);
+}
+div#P_sistema_de_cadastro_gui {
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px black;
+    background-color: rgb(247, 241, 231);
+}
+div#inflacoes {
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px black;
+    background-color: rgb(247, 241, 231);
+}
