@@ -33,36 +33,15 @@ body{
     background-color:rgb(10, 238, 97);
     color: black;
 }
-div#P_Materiais_QRCode {
-    width: 500px;
-    margin: auto;
-    margin-top: 5%;
-    padding: 2%;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 1px 2px 5px black;
-    background-color: rgb(247, 241, 231);
-}
-div#P_sistema_de_cadastro_gui {
-    width: 500px;
-    margin: auto;
-    margin-top: 5%;
-    padding: 2%;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 1px 2px 5px black;
-    background-color: rgb(247, 241, 231);
-}
-div#inflacoes {
-    width: 500px;
-    margin: auto;
-    margin-top: 5%;
-    padding: 2%;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 1px 2px 5px black;
-    background-color: rgb(247, 241, 231);
+div {
+  width: 500px;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 17px;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px black;
+  background-color: rgb(247, 241, 231);
 }
