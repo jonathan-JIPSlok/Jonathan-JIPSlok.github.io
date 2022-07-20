@@ -34,7 +34,7 @@ body{
     color: black;
 }
 div {
-  width: 500px;
+  width: 90%;
   margin: auto;
   margin-top: 5%;
   font-size: 17px;
@@ -44,4 +44,8 @@ div {
   border-radius: 20px;
   box-shadow: 1px 2px 5px black;
   background-color: rgb(247, 241, 231);
+}
+div#link {
+  font-weight: bold;
+  color: red;
 }
