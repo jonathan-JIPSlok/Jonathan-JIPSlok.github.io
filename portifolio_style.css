@@ -30,7 +30,7 @@
     text-decoration: none;
   }
 body{
-    background-color:rgb(10, 238, 97);
+    background-color:rgba(29, 216, 101, 0.76);
     color: black;
 }
 div {
@@ -43,7 +43,7 @@ div {
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 1px 2px 5px black;
-  background-color: rgb(247, 241, 231);
+  background-color: rgba(247, 241, 231, 0.7);
 }
 div#link {
   font-weight: bold;
