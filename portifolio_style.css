@@ -34,7 +34,7 @@ body{
     color: black;
 }
 div {
-  width: 90%;
+  width: 85%;
   margin: auto;
   margin-top: 5%;
   font-size: 17px;
@@ -48,4 +48,12 @@ div {
 div#link {
   font-weight: bold;
   color: red;
+}
+a#Curriculo {
+  font-style: bold;
+  color: red;
+}
+div#curriculo{
+  width: 50%;
+  box-shadow: 5px 5px 7px rgb(25, 20, 20);
 }
