@@ -3,33 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <meta author="Jonathan-JIPSlok">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0, max-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="x-ua-compatible" content="le-edge">
-        <title>Jonathan-JIPSlok</title>
-        
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/script.js" defer></script>
+        <title>Jonathan Yuri</title>
     </head>
+
     <body>
-      <nav id="Menu">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="contato.html" id="contato">Contato</a></li>
-          <li><a href="portifolio.html" id="portifolio">Portifolio</a></li>
-        </ul>
-      </nav>
-      
-      <div id = "topo">
-        <img src="imagens/Eu.jpg">
-        <h1>Jonathan Yuri Poli Siqueira</h1>
-        <h2>Estudante, Desenvolvedor python</h2>
-      </div>
-      <div id = "baixo">
-        <h1><b>Olá!</b></h1>
-        <p>Eu sou Jonathan, sou apaixonado por programação e gosto de estudar sobre o assunto.
-          Sou focado, esforçado, aprendo rápido e procuro sempre dar o melhor que posso.
-        <p>Estou sempre disposto a aprender mais!
-        </p>
-        <p>Sinta-se à vontade para entrar em contato comigo.</p>
-      </div>
+      <header>
+
+        <!--Seção de cabeçalho-->
+        <section id="sectionCabecalho">
+          <h1>Jonathan Yuri Poli Siqueira</h1>
+
+          <section id="sectionContato">
+            <a href="mailto:jonathanpoli17@gmail.com"><img src="./imagens/emailIcon.png" title="Icone E-mail"> jonathanpoli17@gmail.com</a>
+            <a href="https://www.linkedin.com/in/jonathanpoli/"><img src="./imagens/linkedinIcon.png" title="Icone Linkedin"> https://www.linkedin.com/in/jonathanpoli/</a>
+            <a href="https://github.com/jonathan-JIPSlok"><img src="./imagens/githubIcon.png" title="Icone GitHub"> https://github.com/jonathan-JIPSlok</a>
+          </section>
+
+          <a href="./arquivos/Curriculo 2026.pdf">Ver curriculo</a>
+
+        </section>
+
+      </header>
+
+      <main>
+
+        <section id="sectionSobre">
+          <h2>Sobre mim</h2>
+          <p>Sou estudante de Análise e Desenvolvimento de Sistemas com experiência prática em projetos que simulam desafios reais de mercado, aplicando tecnologias como Java, Spring Boot, MySQL, APIs RESTful, JavaScript, Docker, Kubernetes e Machine Learning.<br>
+            Tenho vivência com metodologias ágeis (Kanban, Scrum, Design Thinking) e práticas modernas de desenvolvimento como CI/CD e testes automatizados, sempre buscando entregar soluções escaláveis e bem estruturadas.<br>
+            Além das competências técnicas, organização e capacidade de aprender rápido, habilidades que me permitem colaborar em equipe e transformar requisitos em soluções funcionais.<br>
+            Meu objetivo é atuar como desenvolvedor em ambientes colaborativos, aplicando tecnologia para resolver problemas reais e evoluir em áreas como engenharia de software, cloud computing e inteligência artificial.
+          </p>
+        </section>
+
+        <section id="sectionHabilidades">
+          <h2>Habilidades</h2>
+          <div id="divHardSkills">
+            <h3>Hard Skills (Técnicas)</h3>
+            <ul>
+              <li><b>Desenvolvimento Back-End:</b> Java, Spring Boot, APIs RESTful, MySQL</li>
+              <li><b>Desenvolvimento Front-End:</b> JavaScript, DOM Manipulation, consumo de APIs, HTML/CSS</li>
+              <li><b>DevOps & Infraestrutura:</b> Docker, Kubernetes, Virtualização (VirtualBox, Windows Server, Linux), CI/CD com GitHub Actions</li>
+              <li><b>Cloud & Automação:</b> YAML, Minikube, Ngrok, configuração de servidores web (IIS, Apache, Nginx)</li>
+              <li><b>Ferramentas de Desenvolvimento:</b> Git, GitHub, VS Code, Figma</li>
+            </ul>
+          </div>
+
+          <div id="divSoftSkills">
+            <h3>Soft Skills (Comportamentais)</h3>
+            <ul>
+              <li><b>Organização e disciplina</b> (uso de metodologias ágeis: Kanban, Scrum, Design Thinking)</li>
+              <li><b>Colaboração em equipe</b> (versionamento e integração contínua)</li>
+              <li><b>Resolução de problemas e pensamento crítico</b> (transformando requisitos em soluções práticas)</li>
+              <li><b>Adaptabilidade e aprendizado contínuo</b> (experiência em múltiplas áreas da tecnologia)</li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section id="sectionProjetos">
+          <h2>Projetos</h2>
+        </section>
+
+      </main>
     </body>
 </html>
