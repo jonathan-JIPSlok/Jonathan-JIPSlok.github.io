@@ -44,6 +44,22 @@ header {
     justify-content: center;
 }
 
+#sectionContato img {
+    height: 1em;
+    width: 1em;
+}
+
+@media (min-width: 550px) {
+    #sectionContato {
+        height: 35vh;
+    }
+}
+@media (max-width: 360px) {
+    #sectionContato {
+        height: 35vh;
+    }
+}
+
 #aCurriculo {
     padding-left: 10vw;
     float: inline-start;
@@ -57,16 +73,29 @@ header {
     margin-bottom: 3vw
 }
 
+@media (min-width: 600px) {
+    #sectionSobre p {
+        padding-left: 10vw;
+        margin-bottom: 1vw;
+    }
+}
+
 /*Seção habilidades*/
 #sectionHabilidades {
     background-color: #F2F8FF;
 }
 
-
 #sectionHabilidades ul {
     margin-left: 15vw;
     margin-right: 5vw;
     padding-bottom: 5vw;
+}
+
+@media (min-width: 1024px) {
+    #sectionHabilidades ul {
+        margin-left: 13vw;
+        padding-bottom: 1vw;
+    }
 }
 
 /*Seção Projetos*/
