@@ -9,3 +9,118 @@ html {
     font-size: 16px;
 }
 
+h1 {
+    font-size: 1.75em;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+h2 {
+    font-size: 1.50em;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+h3 {
+    font-size: 1.25em;
+    padding-left: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #F2F8FF;
+    height: 50vh;
+}
+
+#sectionContato {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    float: inline-end;
+    justify-content: center;
+}
+
+#aCurriculo {
+    padding-left: 10vw;
+    float: inline-start;
+    width: 100vw;
+}
+
+/*Seção sobre*/
+#sectionSobre p {
+    padding-left: 20vw;
+    padding-right: 10vw;
+    margin-bottom: 3vw
+}
+
+/*Seção habilidades*/
+#sectionHabilidades {
+    background-color: #F2F8FF;
+}
+
+
+#sectionHabilidades ul {
+    margin-left: 15vw;
+    margin-right: 5vw;
+    padding-bottom: 5vw;
+}
+
+/*Seção Projetos*/
+#sectionProjetos h2{
+    margin-bottom: 1em;
+}
+
+.divCard {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vw;
+    box-shadow: 3px 3px 5px gray;
+    text-align: center;
+}
+
+.h3Projeto {
+    padding-left: 0px;
+}
+
+/* Imagem do projeto
+#idImagemProjeto {
+    background-image: url("../imagens/...");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+*/
+
+.divImagemProjeto {
+    background-color: #F2F8FF;
+    width: 70vw;
+    height: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vw;
+}
+
+.pDescricaoProjeto {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    text-align: justify;
+}
+
+.buttonSaibaMaisProjeto {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    background-color: #F2F8FF;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    box-shadow: 2px 2px 4px gray;
+}
