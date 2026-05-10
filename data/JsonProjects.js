@@ -1,5 +1,4 @@
-{
-  "projetos": [
+export const JsonArray = [
     {
       "titulo": "Calculadora de IMC",
       "disciplina": "Development Tools & Cloud Computing",
@@ -21,7 +20,7 @@
       "disciplina": "Server and Data Center Administration",
       "tecnologias": ["Windows Server 2022", "IIS", "MySQL", "Ngrok"],
       "descricao": "Configuração de servidor IIS, hospedagem de site, instalação de MySQL e exposição segura via túnel criptografado com Ngrok.",
-      "videoPitch": null,
+      "videoPitch": "https://www.youtube.com/embed/QNmBZGJ1Dbg?si=PVn00DFHLp9GJW2l",
       "gitHub": null
     },
     {
@@ -29,7 +28,7 @@
       "disciplina": "Object Oriented Programming",
       "tecnologias": ["Java", "Spring Boot", "MySQL", "JPA"],
       "descricao": "Sistema RESTful para gestão de estoque de veículos, aplicando POO, arquitetura MVC e persistência em banco relacional.",
-      "videoPitch": null,
+      "videoPitch": "https://www.youtube.com/embed/uOJgTF3vRKE?si=NnkR8GQp-foP5wft",
       "gitHub": "https://github.com/jonathan-JIPSlok/Sistema-Automotivo"
     },
     {
@@ -64,5 +63,4 @@
       "videoPitch": "https://www.youtube.com/embed/3BTW2OdNhBw?si=kqCqlGeIGNA9Wtl8",
       "gitHub": "https://github.com/jonathan-JIPSlok/Front-End_Consumo_API_Simpsons"
     }
-  ]
-}
+];
