@@ -116,15 +116,7 @@ header {
     padding-left: 0px;
 }
 
-/* Imagem do projeto
-#idImagemProjeto {
-    background-image: url("../imagens/...");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-*/
-
-.divImagemProjeto {
+.divVideoProjeto iframe{
     background-color: #F2F8FF;
     width: 70vw;
     height: 45vw;
@@ -136,7 +128,7 @@ header {
 .pDescricaoProjeto {
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 1em;
     text-align: justify;
 }
 
@@ -152,4 +144,20 @@ header {
     font-size: 1em;
     border: none;
     box-shadow: 2px 2px 4px gray;
+}
+
+@media (min-width: 1024px) {
+    .divVideoProjeto iframe{
+        width: 60vw;
+        height: 40vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .divVideoProjeto iframe{
+        width: 45vw;
+        height: 20vw;
+        margin-bottom: 1vw;
+    }
 }
