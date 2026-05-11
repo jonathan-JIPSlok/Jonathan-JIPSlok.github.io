@@ -1,5 +1,6 @@
 export const JsonArray = [
     {
+      "id": "1",
       "titulo": "Calculadora de IMC",
       "disciplina": "Development Tools & Cloud Computing",
       "tecnologias": ["Python", "VS Code", "Git", "GitHub"],
@@ -8,6 +9,7 @@ export const JsonArray = [
       "gitHub": "https://github.com/jonathan-JIPSlok/imc"
     },
     {
+      "id": "2",
       "titulo": "Simulação Cliente-Servidor com Máquinas Virtuais",
       "disciplina": "Development Tools & Cloud Computing",
       "tecnologias": ["VirtualBox", "Ubuntu", "Apache2", "HTML"],
@@ -16,6 +18,7 @@ export const JsonArray = [
       "gitHub": null
     },
     {
+      "id": "3",
       "titulo": "Servidor Web com Windows Server 2022",
       "disciplina": "Server and Data Center Administration",
       "tecnologias": ["Windows Server 2022", "IIS", "MySQL", "Ngrok"],
@@ -24,22 +27,25 @@ export const JsonArray = [
       "gitHub": null
     },
     {
+      "id": "4",
       "titulo": "Sistema Automotivo - Gestão de Estoque de Veículos",
       "disciplina": "Object Oriented Programming",
       "tecnologias": ["Java", "Spring Boot", "MySQL", "JPA"],
       "descricao": "Sistema RESTful para gestão de estoque de veículos, aplicando POO, arquitetura MVC e persistência em banco relacional.",
       "videoPitch": "https://www.youtube.com/embed/uOJgTF3vRKE?si=NnkR8GQp-foP5wft",
-      "gitHub": "https://github.com/jonathan-JIPSlok/Sistema-Automotivo"
+      "gitHub": "https://github.com/jonathan-JIPSlok/Sistema-Automotivo---Gestao-de-Estoque-de-Veiculos"
     },
     {
+      "id": "5",
       "titulo": "Gerenciamento de Eventos Ágil",
       "disciplina": "Software Engineering",
       "tecnologias": ["Python", "GitHub Actions", "Pytest", "Kanban"],
       "descricao": "Sistema de gerenciamento de eventos com requisitos funcionais, modelagem UML, Kanban no GitHub Projects e CI/CD com testes automatizados.",
       "videoPitch": "https://www.youtube.com/embed/IvzVntydQh4?si=OWN4Tok7RwWi_bTf",
-      "gitHub": null
+      "gitHub": "https://github.com/jonathan-JIPSlok/Gestao-de-Eventos-UniFECAF"
     },
     {
+      "id": "6",
       "titulo": "Automação com Kubernetes",
       "disciplina": "Containers e Kubernetes",
       "tecnologias": ["Docker", "Kubernetes", "YAML", "Minikube"],
@@ -48,6 +54,7 @@ export const JsonArray = [
       "gitHub": null
     },
     {
+      "id": "7",
       "titulo": "Previsão de Churn em Streaming",
       "disciplina": "Machine Learning & Chatbot",
       "tecnologias": ["Orange Data Mining", "Random Forest", "Logistic Regression"],
@@ -56,6 +63,7 @@ export const JsonArray = [
       "gitHub": null
     },
     {
+      "id": "8",
       "titulo": "Consumo de API - Simpsons",
       "disciplina": "Web Programming for Front-End",
       "tecnologias": ["JavaScript", "HTML", "CSS", "Fetch API"],

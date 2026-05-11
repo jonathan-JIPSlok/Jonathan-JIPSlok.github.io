@@ -165,3 +165,51 @@ header {
         margin-bottom: 1vw;
     }
 }
+
+/*Configurando o Overlay*/
+.sectionOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.divOverlay {
+    position: fixed;
+    background: #FFFFFF;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+}
+
+.divOverlay h3 {
+    padding: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.pConteudo {
+    width: 80%;
+    height: 70%;
+    text-align: justify;
+    margin-left: 5vw;
+}
+
+.buttonVoltar {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    background-color: #F2F8FF;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    box-shadow: 2px 2px 4px gray;
+
+}
