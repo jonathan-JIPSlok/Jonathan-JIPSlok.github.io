@@ -5,7 +5,7 @@ export const JsonArray = [
       "disciplina": "Development Tools & Cloud Computing",
       "tecnologias": ["Python", "VS Code", "Git", "GitHub"],
       "descricao": "Aplicação em Python para cálculo de IMC, versionada com Git e hospedada em repositório público no GitHub.",
-      "videoPitch": null,
+      "videoPitch": "https://www.youtube.com/embed/SopK1DC6OWk?si=fh_olMybUHi7JxlQ",
       "gitHub": "https://github.com/jonathan-JIPSlok/imc"
     },
     {
@@ -14,8 +14,8 @@ export const JsonArray = [
       "disciplina": "Development Tools & Cloud Computing",
       "tecnologias": ["VirtualBox", "Ubuntu", "Apache2", "HTML"],
       "descricao": "Criação de duas VMs (cliente e servidor), configuração de rede interna e hospedagem de mini currículo em servidor Apache.",
-      "videoPitch": null,
-      "gitHub": null
+      "videoPitch": "https://www.youtube.com/embed/14ek0bC2vRE?si=DhRYsh9uCfAnM-QU",
+      "gitHub": "não possui"
     },
     {
       "id": "3",
@@ -24,7 +24,7 @@ export const JsonArray = [
       "tecnologias": ["Windows Server 2022", "IIS", "MySQL", "Ngrok"],
       "descricao": "Configuração de servidor IIS, hospedagem de site, instalação de MySQL e exposição segura via túnel criptografado com Ngrok.",
       "videoPitch": "https://www.youtube.com/embed/QNmBZGJ1Dbg?si=PVn00DFHLp9GJW2l",
-      "gitHub": null
+      "gitHub": "não possui"
     },
     {
       "id": "4",
@@ -51,7 +51,7 @@ export const JsonArray = [
       "tecnologias": ["Docker", "Kubernetes", "YAML", "Minikube"],
       "descricao": "Criação de Dockerfiles otimizados para Nginx e Apache, Deployments e Services em Kubernetes, escalabilidade com kubectl.",
       "videoPitch": "https://www.youtube.com/embed/x5mjs9qs8gw?si=lhCCxZ5oiHyjWqLv",
-      "gitHub": null
+      "gitHub": "não possui"
     },
     {
       "id": "7",
@@ -60,7 +60,7 @@ export const JsonArray = [
       "tecnologias": ["Orange Data Mining", "Random Forest", "Logistic Regression"],
       "descricao": "Modelo preditivo para identificar cancelamento de clientes em serviços de streaming, com estratégias de retenção baseadas em dados.",
       "videoPitch": "https://www.youtube.com/embed/xtRJdaaQasM?si=NY29gadgJuRIx92n",
-      "gitHub": null
+      "gitHub": "não possui"
     },
     {
       "id": "8",
